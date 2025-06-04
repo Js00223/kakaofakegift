@@ -16,7 +16,7 @@ export default function GiftPage() {
 
   useEffect(() => {
     if (window.Kakao && !window.Kakao.isInitialized()) {
-      window.Kakao.init("YOUR_KAKAO_JAVASCRIPT_KEY");
+      window.Kakao.init("7314f08fffd7a4d172be5f536774069e");
     }
     setTimeout(() => {
       setIsPrank(true);
